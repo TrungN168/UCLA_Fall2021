@@ -46,3 +46,12 @@ do
     echo "Hello World $i"
     i=`expr $i + 1`
 done
+
+a=1
+if [ $a -le 5 ]
+then
+    echo "$a < 5"
+    a= `expr $a + 1`
+else
+    echo "$a is not less than 5"
+fi
