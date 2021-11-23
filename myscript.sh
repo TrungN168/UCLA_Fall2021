@@ -22,10 +22,10 @@ else
 fi
 
 # ELSE-IF (elif)
-if [ "$NAME" == "Trung_V"]
+if [ "$NAME" == "Trung_V" ]
 then
     echo "Your name is Trung"
-elif [ "$NAME" == "Luis"]
+elif [ "$NAME" == "Luis" ]
 then  
     echo "Your name is Luis"
 else 
@@ -51,7 +51,7 @@ a=1
 if [ $a -le 5 ]
 then
     echo "$a < 5"
-    a= `expr $a + 1`
+    a=`expr $a + 1`
 else
     echo "$a is not less than 5"
 fi
